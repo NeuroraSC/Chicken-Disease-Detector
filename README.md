@@ -1,4 +1,4 @@
-# FINAL PROJECT TITLE HERE
+# CHICKEN DISEASE DETECTION
 
 ## Project Description
 Please describe your Startup Campus final project here. You may should your <b>model architecture</b> in JPEG or GIF.
@@ -6,11 +6,13 @@ Please describe your Startup Campus final project here. You may should your <b>m
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
 | --- | --- | --- | --- | --- |
-| ... | ... | ... | ... | Team Lead |
-| ... | ... | ... | ... | Team Member |
-| ... | ... | ... | ... |Team Member |
-| ... | ... | ... | ... | ... |
-| ... | ... | ... | ... | ... |
+| Akhras At | Startup Campus, AI Track | ... | ... | Team Lead |
+| ... | ... | Startup Campus, AI Track | ... | Team Member |
+| Muhamad Fariz Sabilah Putra Fajar | Startup Campus, AI Track | ... | ... |Team Member |
+| ... | Startup Campus, AI Track | ... | ... | ... |
+| ... | Startup Campus, AI Track | ... | ... | ... |
+| ... | Startup Campus, AI Track | ... | ... | ... |
+| ... | Startup Campus, AI Track | ... | ... | ... |
 | Nicholas Dominic | Startup Campus, AI Track | nic.dominic@icloud.com | [link](https://linkedin.com/in/nicholas-dominic) | Supervisor |
 
 ## Setup
@@ -33,7 +35,8 @@ Please describe your Startup Campus final project here. You may should your <b>m
 
 ## Dataset
 Describe your dataset information here. Provide a screenshot for some of your dataset samples (for example, if you're using CIFAR10 dataset, then show an image for each class).
-- Link: https://...
+Dataset "Kotoran ayam" dirancang untuk  menggunakan teknik computer vision. Dataset ini terdiri dari gambar-gambar yang telah dianotasi dengan label yang merepresentasikan berbagai jenis kotoran ayam. Yaitu berisi kumpulan foto kotoran ayam yang berjumlah 8.067 data, dengan pembagian sebanyak 6454 data train, 807 data validation, dan 807 data test yang terbagi menjadi 4 kategori yaitu Sehat, coccidiosis, salmonella, dan New Castle Disease.
+- Link: [https://...](https://www.kaggle.com/code/abdallahwagih/chicken-disease-detection-acc-98-27/input)
 
 ## Results
 ### Model Performance
@@ -53,6 +56,8 @@ Feel free to adjust the columns in the table below.
 
 | model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | ... |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| DenseNet121 | 50 |  0.00001 | 32 | Adam | 0.0854 | 98% | 97% | ... |
+| ... | ... | ... | ... | ... | ... | ... | ... | ... | 
 | vit_b_16 | 1000 |  0.0001 | 32 | Adam | 0.093 | 88.34% | 84.15% | ... |
 | vit_l_32 | 2500 | 0.00001 | 128 | SGD | 0.041 | 90.19% | 87.55% | ... |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | 
