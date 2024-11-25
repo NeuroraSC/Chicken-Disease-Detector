@@ -24,7 +24,7 @@ The Chicken Disease Detection project focuses on developing an AI-driven solutio
 ### **Feature**  
 - **✅ Akurasi Tinggi:** Model dirancang dengan dataset teranotasi berkualitas tinggi, memastikan akurasi tinggi dalam deteksi penyakit.  
 - **⚡ Respons Cepat:** Mampu memberikan hasil diagnosis hanya dalam hitungan detik setelah gambar dimasukkan.  
-- **📄 Laporan Informatif:** Menyediakan laporan digital yang mencakup: Kategori penyakit terdeteksi** dan **Rekomendasi tindakan lebih lanjut**  
+- **📄 Laporan Informatif:** Menyediakan laporan digital yang mencakup: **Kategori penyakit terdeteksi** dan **Rekomendasi tindakan lebih lanjut**  
 
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
