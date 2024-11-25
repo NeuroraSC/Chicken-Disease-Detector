@@ -1,18 +1,41 @@
 # CHICKEN DISEASE DETECTION
 
 ## Project Description
-The Chicken Disease Detection project focuses on developing an AI-driven solution to detect and classify chicken diseases based on fecal images. This innovative approach aims to improve early disease detection in poultry farming, reducing economic losses and enhancing animal health management. Using advanced deep learning techniques, the system identifies and classifies fecal images into four categories: healthy, salmonella, new castle disease, and coccidiosis.
+The Chicken Disease Detection project focuses on developing an AI-driven solution to detect and classify chicken diseases based on fecal images. This innovative approach aims to improve early disease detection in poultry farming, reducing economic losses and enhancing animal health management. Using advanced deep learning techniques, the system identifies and classifies fecal images into four categories: Healthy, Salmonella, Newcastle Disease, and Coccidiosis.
+
+### **Manfaat**  
+- **🔍 Pendeteksian Dini Penyakit**  
+  Membantu peternak untuk mengidentifikasi penyakit lebih awal sebelum terjadi penyebaran yang luas dan mengurangi risiko kematian massal unggas akibat keterlambatan diagnosis.  
+- **⏱️ Efisiensi Operasional**  
+  Menghemat waktu dan tenaga dibandingkan metode manual atau tradisional, serta tidak memerlukan pengawasan intensif oleh tenaga ahli di lapangan.  
+
+- **📈 Peningkatan Produktivitas Peternakan**  
+  Dengan identifikasi dan perawatan penyakit yang cepat, unggas dapat tetap sehat, sehingga produktivitas seperti produksi telur dan daging tetap optimal.  
+
+- **💰 Pengurangan Biaya Pengobatan**  
+  Deteksi dini mengurangi kebutuhan akan pengobatan yang mahal akibat penyakit yang sudah parah atau menyebar.  
+
+- **📊 Dukungan untuk Keputusan Manajemen Peternakan**  
+  Laporan diagnosis dapat digunakan sebagai data untuk membuat keputusan strategis, seperti jadwal vaksinasi atau pembersihan kandang.  
+
+- **🐔 Peningkatan Kesejahteraan Hewan**  
+  Dengan pemantauan yang lebih cermat, kesehatan dan kesejahteraan unggas dapat lebih terjamin.  
+
+### **Feature**  
+- **✅ Akurasi Tinggi:** Model dirancang dengan dataset teranotasi berkualitas tinggi, memastikan akurasi tinggi dalam deteksi penyakit.  
+- **⚡ Respons Cepat:** Mampu memberikan hasil diagnosis hanya dalam hitungan detik setelah gambar dimasukkan.  
+- **📄 Laporan Informatif:** Menyediakan laporan digital yang mencakup: Kategori penyakit terdeteksi** dan **Rekomendasi tindakan lebih lanjut**  
 
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
 | --- | --- | --- | --- | --- |
-| Akhras At | Startup Campus, AI Track | ... | ... | Team Lead |
-| ... | ... | Startup Campus, AI Track | ... | Team Member |
-| Muhamad Fariz Sabilah Putra Fajar | Startup Campus, AI Track | putrafajar198@gmail.com | ... |Team Member |
-| ... | Startup Campus, AI Track | ... | ... | ... |
-| ... | Startup Campus, AI Track | ... | ... | ... |
-| ... | Startup Campus, AI Track | ... | ... | ... |
-| ... | Startup Campus, AI Track | ... | ... | ... |
+| Akhras Athiyah | Startup Campus, AI Track | akhrasathiyah@gmail.com | [link](https://www.linkedin.com/in/akhrasathiyah/) | Team Lead |
+| Alfrizky Elnesta | Startup Campus, AI Track | elnesta32@student.uns.ac.id | [link](https://www.linkedin.com/in/alfrizkye/) | Team Member |
+| Eko Ginanjar Basuki Rahmat | Startup Campus, AI Track | ekoginanjar4@gmail.com | [link](https://www.linkedin.com/in/ekoginanjar/) |Team Member |
+| Gladis Hafifah | Startup Campus, AI Track | ghmaliq24@gmail.com | [link](https://www.linkedin.com/in/gladishafifah/) | Team Member |
+| Melviana Mayandra Putri Budi Setyo | Startup Campus, AI Track | melvianamayandraputri@gmail.com | [link] | Team Member |
+| Muhamad Fariz Sabilah Putra Fajar | Startup Campus, AI Track | putrafajar198@gmail.com | [link](https://www.linkedin.com/in/putrafjrr/) | Team Member |
+| Muhammad Zhulal | Startup Campus, AI Track | ... | [link] | Team Member |
 | Nicholas Dominic | Startup Campus, AI Track | nic.dominic@icloud.com | [link](https://linkedin.com/in/nicholas-dominic) | Supervisor |
 
 ## Setup
@@ -35,8 +58,8 @@ The Chicken Disease Detection project focuses on developing an AI-driven solutio
 
 ## Dataset
 Describe your dataset information here. Provide a screenshot for some of your dataset samples (for example, if you're using CIFAR10 dataset, then show an image for each class).
-Dataset "Kotoran ayam" dirancang untuk  menggunakan teknik computer vision. Dataset ini terdiri dari gambar-gambar yang telah dianotasi dengan label yang merepresentasikan berbagai jenis kotoran ayam. Yaitu berisi kumpulan foto kotoran ayam yang berjumlah 8.067 data, dengan pembagian sebanyak 6453 data train, 806 data validation, dan 808 data test yang terbagi menjadi 4 kategori yaitu Sehat, coccidiosis, salmonella, dan New Castle Disease.
-- Link: [https://...](https://www.kaggle.com/code/abdallahwagih/chicken-disease-detection-acc-98-27/input)
+Dataset "Kotoran ayam" dirancang untuk  menggunakan teknik computer vision. Dataset ini terdiri dari gambar-gambar yang telah dianotasi dengan label yang merepresentasikan berbagai jenis kotoran ayam. Yaitu berisi kumpulan foto kotoran ayam yang berjumlah 8.067 data, dengan pembagian sebanyak 6453 data train, 806 data validation, dan 808 data test yang terbagi menjadi 4 kategori yaitu Healthy, Salmonella, Newcastle Disease, and Coccidiosis.
+- Link: [Chicken Disease Datasets](https://www.kaggle.com/datasets/allandclive/chicken-disease-1)
 
 ## Results
 ### Model Performance
@@ -54,17 +77,14 @@ Inform your model validation performances, as follows:
 
 Feel free to adjust the columns in the table below.
 
-| model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | ... |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| DenseNet121 | 50 |  0.00001 | 32 | Adam | 0.0854 | 98% | 97% | ... |
-| DenseNet121 | 50 |  0.00001 | 64 | Adam |  |  |  | ... |
-| Resnet50 | 50 |  0.0001 | 32 | Adam | 0.1327 | 97% | 97% | ... |
-| Resnet50 | 50 |  0.0001 | 64 | Adam | 0.1674 | 96% | 93% | ... |
-| VGG16 | 50 |  0.00001 | 32 | Adam | 0.0857 | 95% | 95% | ... |
-| VGG16 | 50 |  0.00001 | 64 | Adam | 0.1524 | 97% | 97% | ... |
-| ... | ... | ... | ... | ... | ... | ... | ... | ... | 
-| vit_b_16 | 1000 |  0.0001 | 32 | Adam | 0.093 | 88.34% | 84.15% | ... |
-| vit_l_32 | 2500 | 0.00001 | 128 | SGD | 0.041 | 90.19% | 87.55% | ... |
+| model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | test_acc | ... |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| DenseNet121 | 50 |  0.00001 | 32 | Adam | 0.0854 | 98% | 97% | ... | ... |
+| DenseNet121 | 50 |  0.00001 | 64 | Adam | 0.0839 | 97% | 96% | ... | | ... |
+| Resnet50 | 50 |  0.0001 | 32 | Adam | 0.1327 | 97% | 97% | ... | ... |
+| Resnet50 | 50 |  0.0001 | 64 | Adam | 0.1674 | 96% | 93% | ... | ... |
+| VGG16 | 50 |  0.00001 | 32 | Adam | 0.0857 | 95% | 95% | ... | ... |
+| VGG16 | 50 |  0.00001 | 64 | Adam | 0.1524 | 97% | 97% | ... | ... |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | 
 
 #### 2. Ablation Study
