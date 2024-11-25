@@ -1,7 +1,7 @@
 # CHICKEN DISEASE DETECTION
 
 ## Project Description
-Please describe your Startup Campus final project here. You may should your <b>model architecture</b> in JPEG or GIF.
+The Chicken Disease Detection project focuses on developing an AI-driven solution to detect and classify chicken diseases based on fecal images. This innovative approach aims to improve early disease detection in poultry farming, reducing economic losses and enhancing animal health management. Using advanced deep learning techniques, the system identifies and classifies fecal images into four categories: healthy, salmonella, new castle disease, and coccidiosis.
 
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
