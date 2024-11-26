@@ -57,7 +57,11 @@ The Chicken Disease Detection project focuses on developing an AI-driven solutio
 | OS | Windows 11 |
 
 ## Dataset
-Dataset "Kotoran ayam" dirancang untuk  menggunakan teknik computer vision. Dataset ini terdiri dari gambar-gambar yang telah dianotasi dengan label yang merepresentasikan berbagai jenis kotoran ayam. Yaitu berisi kumpulan foto kotoran ayam yang berjumlah 8.067 data, dengan pembagian sebanyak 6453 data train, 806 data validation, dan 808 data test yang terbagi menjadi 4 kategori yaitu Healthy, Salmonella, Newcastle Disease, and Coccidiosis.
+Dataset "Kotoran Ayam" dirancang untuk mendukung penelitian dan pengembangan model berbasis teknik computer vision dalam mengidentifikasi dan mengklasifikasikan berbagai jenis kotoran ayam. Dataset ini terdiri dari 8.067 gambar yang telah dianotasi dengan label yang mencerminkan berbagai kondisi kesehatan ayam. Gambar-gambar tersebut mencakup variasi bentuk, tekstur, dan warna kotoran ayam, yang bertujuan untuk meningkatkan kemampuan generalisasi model.  
+
+Dataset ini dibagi menjadi tiga kelompok utama: 6.453 data untuk pelatihan (training), 806 data untuk validasi (validation), dan 808 data untuk pengujian (testing). Setiap gambar diklasifikasikan ke dalam salah satu dari empat kategori, yaitu Healthy (sehat), Salmonella, Newcastle Disease, dan Coccidiosis.  
+
+Dataset ini dirancang secara sistematis dan komprehensif untuk mendukung pengembangan model berbasis artificial intelligence yang dapat diaplikasikan dalam berbagai bidang, seperti sistem deteksi penyakit unggas berbasis citra.
 - Link: [Chicken Disease Datasets](https://www.kaggle.com/datasets/allandclive/chicken-disease-1)
 
 ## Results
