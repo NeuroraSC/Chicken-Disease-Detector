@@ -50,11 +50,11 @@ The Chicken Disease Detection project focuses on developing an AI-driven solutio
 ### Environment
 | | |
 | --- | --- |
-| CPU | Example: Apple M3 Pro 12-core CPU |
-| GPU | Example: Nvidia A100 (x1) |
-| ROM | Example: 1 TB SSD |
-| RAM | Example: 36 GB |
-| OS | Example: macOS Sonoma v14.1.1 |
+| CPU | 13th Gen Intel(R) Core(TM) i5-13450HX (16 CPUs), ~2.4GHz |
+| GPU | NVIDIA GeForce RTX 4050 Laptop GPU |
+| ROM | 512 GB SSD |
+| RAM | 16 GB |
+| OS | Windows 11 |
 
 ## Dataset
 Dataset "Kotoran ayam" dirancang untuk  menggunakan teknik computer vision. Dataset ini terdiri dari gambar-gambar yang telah dianotasi dengan label yang merepresentasikan berbagai jenis kotoran ayam. Yaitu berisi kumpulan foto kotoran ayam yang berjumlah 8.067 data, dengan pembagian sebanyak 6453 data train, 806 data validation, dan 808 data test yang terbagi menjadi 4 kategori yaitu Healthy, Salmonella, Newcastle Disease, and Coccidiosis.
@@ -93,7 +93,23 @@ The model was tested using the testing dataset to evaluate its classification pe
 ![testing](https://github.com/user-attachments/assets/5c14a6bc-853e-4f89-ab3b-9ddab8e17d6f)
 
 ### Deployment (Optional)
-Describe and show how you deploy this project (e.g., using Streamlit or Flask), if any.
+#### Overview
+This project consists of a **Next.js frontend** deployed on **Vercel** and a **Flask backend** deployed on **Google Cloud**. The frontend and backend work together to deliver a seamless user experience, with Next.js handling the client-side interface and Flask providing API logic and data processing on the server.
+
+#### Frontend Deployment (Next.js on Vercel)
+The frontend is built using **Next.js**, a React framework for building modern web applications. Next.js supports both **server-side rendering (SSR)** and **static site generation (SSG)**, providing fast and optimized pages for the user.
+
+- **Deployment Platform**: Vercel
+
+
+#### Backend Deployment (Flask on Google Cloud)
+The backend is built using **Flask**, a lightweight Python web framework. It provides RESTful API endpoints that the frontend communicates with.
+
+- **Deployment Platform**: Google Cloud
+
+#### Deployment Link
+https://chicken-disease-detection.vercel.app/
+
 
 ## Supporting Documents
 ### Presentation Deck
