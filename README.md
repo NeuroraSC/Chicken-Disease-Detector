@@ -116,7 +116,8 @@ https://chicken-disease-detection.vercel.app/
 - Link: https://...
 
 ### Business Model Canvas
-Provide a screenshot of your Business Model Canvas (BMC). Give some explanations, if necessary.
+![Business Model Canva_Neurora](https://github.com/user-attachments/assets/a084f14c-ff3c-4508-8390-dee175d9b6c6)
+
 
 ### Short Video
 Provide a link to your short video, that should includes the project background and how it works.
