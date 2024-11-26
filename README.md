@@ -33,7 +33,7 @@ The Chicken Disease Detection project focuses on developing an AI-driven solutio
 | Alfrizky Elnesta | Startup Campus, AI Track | elnesta32@student.uns.ac.id | [link](https://www.linkedin.com/in/alfrizkye/) | Team Member |
 | Eko Ginanjar Basuki Rahmat | Startup Campus, AI Track | ekoginanjar4@gmail.com | [link](https://www.linkedin.com/in/ekoginanjar/) |Team Member |
 | Gladis Hafifah | Startup Campus, AI Track | ghmaliq24@gmail.com | [link](https://www.linkedin.com/in/gladishafifah/) | Team Member |
-| Melviana Mayandra Putri Budi Setyo | Startup Campus, AI Track | melvianamayandraputri@gmail.com | [link] | Team Member |
+| Melviana Mayandra Putri Budi Setyo | Startup Campus, AI Track | melvianamayandraputri@gmail.com | [link](https://www.linkedin.com/in/melvianampbs) | Team Member |
 | Muhamad Fariz Sabilah Putra Fajar | Startup Campus, AI Track | putrafajar198@gmail.com | [link](https://www.linkedin.com/in/putrafjrr/) | Team Member |
 | Muhammad Zhulal | Startup Campus, AI Track | 2010103065.zhulal@gmail.com | [link](https://www.linkedin.com/in/muhammad-z-07869b109/) | Team Member |
 | Nicholas Dominic | Startup Campus, AI Track | nic.dominic@icloud.com | [link](https://linkedin.com/in/nicholas-dominic) | Supervisor |
