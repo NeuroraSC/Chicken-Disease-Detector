@@ -57,35 +57,23 @@ The Chicken Disease Detection project focuses on developing an AI-driven solutio
 | OS | Example: macOS Sonoma v14.1.1 |
 
 ## Dataset
-Describe your dataset information here. Provide a screenshot for some of your dataset samples (for example, if you're using CIFAR10 dataset, then show an image for each class).
 Dataset "Kotoran ayam" dirancang untuk  menggunakan teknik computer vision. Dataset ini terdiri dari gambar-gambar yang telah dianotasi dengan label yang merepresentasikan berbagai jenis kotoran ayam. Yaitu berisi kumpulan foto kotoran ayam yang berjumlah 8.067 data, dengan pembagian sebanyak 6453 data train, 806 data validation, dan 808 data test yang terbagi menjadi 4 kategori yaitu Healthy, Salmonella, Newcastle Disease, and Coccidiosis.
 - Link: [Chicken Disease Datasets](https://www.kaggle.com/datasets/allandclive/chicken-disease-1)
 
 ## Results
 ### Model Performance
-Describe all results found in your final project experiments, including hyperparameters tuning and architecture modification performances. Put it into table format. Please show pictures (of model accuracy, loss, etc.) for more clarity.
+In this section, we present the results from the final project experiments, covering various aspects of the model's evaluation through metrics, ablation study, and training/validation curves. These results are summarized in the tables below and supported by visual illustrations to provide deeper insights.
 
 #### 1. Metrics
-Inform your model validation performances, as follows:
-- For classification tasks, use **Precision and Recall**.
-- For object detection tasks, use **Precision and Recall**. Additionaly, you may also use **Intersection over Union (IoU)**.
-- For image retrieval tasks, use **Precision and Recall**.
-- For optical character recognition (OCR) tasks, use **Word Error Rate (WER) and Character Error Rate (CER)**.
-- For adversarial-based generative tasks, use **Peak Signal-to-Noise Ratio (PNSR)**. Additionally, for specific GAN tasks,
-  - For single-image super resolution (SISR) tasks, use **Structural Similarity Index Measure (SSIM)**.
-  - For conditional image-to-image translation tasks (e.g., Pix2Pix), use **Inception Score**.
 
-Feel free to adjust the columns in the table below.
-
-| model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | test_acc | ... |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| DenseNet121 | 50 |  0.00001 | 32 | Adam | 0.0854 | 98% | 97% | ... | ... |
-| DenseNet121 | 50 |  0.00001 | 64 | Adam | 0.0839 | 97% | 96% | ... | | ... |
-| Resnet50 | 50 |  0.00001 | 32 | Adam | 0.1334 | 96% | 97% | ... | ... |
-| Resnet50 | 50 |  0.00001 | 64 | Adam | 0.1297 | 97% | 96% | ... | ... |
-| VGG16 | 50 |  0.00001 | 32 | Adam | 0.0857 | 95% | 95% | ... | ... |
-| VGG16 | 50 |  0.00001 | 64 | Adam | 0.1524 | 97% | 97% | ... | ... |
-| ... | ... | ... | ... | ... | ... | ... | ... | ... | 
+| model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | test_acc |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| DenseNet121 | 50 |  0.00001 | 32 | Adam | 0.0854 | 98% | 97% | 95.92% |
+| DenseNet121 | 50 |  0.00001 | 64 | Adam | 0.0839 | 97% | 96% | 96.78% |
+| Resnet50 | 50 |  0.00001 | 32 | Adam | 0.1334 | 96% | 97% | 97.03% |
+| Resnet50 | 50 |  0.00001 | 64 | Adam | 0.1297 | 97% | 96% | 96.41% | 
+| VGG16 | 50 |  0.00001 | 32 | Adam | 0.0857 | 95% | 95% | 95.92% |
+| VGG16 | 50 |  0.00001 | 64 | Adam | 0.1524 | 97% | 97% | 96.29% | 
 
 #### 2. Ablation Study
 Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
@@ -101,7 +89,7 @@ Insert an image regarding your training and evaluation performances (especially 
 ![Screenshot 2024-11-25 105451](https://github.com/user-attachments/assets/e9243ba5-39c7-4921-9011-a6101426b6e3)
  
 ### Testing
-Show some implementations (demos) of this model. Show **at least 10 images** of how your model performs on the testing data.
+The model was tested using the testing dataset to evaluate its classification performance. From this evaluation, the model achieved an accuracy of **95.92%**. Below are some visual results of the classifications on the testing data. Each image is accompanied by the ground truth label and the model's prediction.
 ![testing](https://github.com/user-attachments/assets/5c14a6bc-853e-4f89-ab3b-9ddab8e17d6f)
 
 ### Deployment (Optional)
