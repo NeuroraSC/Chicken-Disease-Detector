@@ -40,12 +40,14 @@ The Chicken Disease Detection project focuses on developing an AI-driven solutio
 
 ## Setup
 ### Prerequisite Packages (Dependencies)
-- pandas==2.1.0
-- openai==0.28.0
-- google-cloud-aiplatform==1.34.0
-- google-cloud-bigquery==3.12.0
-- ...
-- ...
+- Torch == 2.5.1
+- Torchvision == 0.20.1
+- Numpy == 1.26.4
+- PIL == 11.0.0
+- Pandas == 2.2.2
+- Matplotlib == 3.8.0
+- Tqdm == 4.66.6
+- OpenAI == 1.54.4
 
 ### Environment
 | | |
