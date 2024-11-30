@@ -91,7 +91,7 @@ Any improvements or modifications of your base model, should be summarized in th
 | ... | ... | ... | ... | ... | ... | ... |
 
 #### 3. Training/Validation Curve
-Insert an image regarding your training and evaluation performances (especially their losses). The aim is to assess whether your model is fit, overfit, or underfit.
+The graph shows that both **train loss** and **validation loss** consistently decrease with similar trends and no significant differences, while accuracy steadily increases to over 95%. This indicates that the model generalizes well without signs of overfitting.
 ![Screenshot 2024-11-25 105451](https://github.com/user-attachments/assets/e9243ba5-39c7-4921-9011-a6101426b6e3)
  
 ### Testing
@@ -153,4 +153,4 @@ If you find this project useful, we'd grateful if you cite this repository:
 For academic and non-commercial use only.
 
 ## Acknowledgement
-This project entitled <b>"YOUR PROJECT TITLE HERE"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
+This project entitled <b>"HICKEN DISEASE DETECTION"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
