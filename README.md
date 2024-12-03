@@ -82,13 +82,20 @@ In this section, we present the results from the final project experiments, cove
 | VGG16 | 50 |  0.00001 | 64 | Adam | 0.1524 | 97% | 97% | 96.29% | 
 
 #### 2. Ablation Study
-Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
+In this study, we perform a simple ablation to evaluate the effect of the **output layer** size on model performance. The DenseNet model was used with the following modifications:
+- **Default Output Layer**: The original **DenseNet121** model, pretrained on ImageNet, has an output layer of size 1000 (corresponding to the 1000 classes of ImageNet).
+- **Modification**: The output layer was modified to match the number of output classes in the target dataset, which is 4 classes.
+- **Effect**: The model's output layer now has 4 units instead of 1000, corresponding to the 4 target classes.
 
-| model | layer_A | layer_B | layer_C | ... | top1_acc | top5_acc |
-| --- | --- | --- | --- | --- | --- | --- |
-| vit_b_16 | Conv(3x3, 64) x2 | Conv(3x3, 512) x3 | Conv(1x1, 2048) x3 | ... | 77.43% | 80.08% |
-| vit_b_16 | Conv(3x3, 32) x3 | Conv(3x3, 128) x3 | Conv(1x1, 1028) x2 | ... | 72.11% | 76.84% |
-| ... | ... | ... | ... | ... | ... | ... |
+This line replaces the original output layer with one that has `num_classes` outputs (in this case, 4).
+```python
+self.model.classifier = torch.nn.Linear(self.model.classifier.in_features, num_classes)  
+```
+
+| model | output_layer | top1_acc |
+| --- | --- | --- |
+| DenseNet121 Default | 1000 | - |
+| DenseNet121 Modified | 4 | 96.78% | 
 
 #### 3. Training/Validation Curve
 The graph shows that both **train loss** and **validation loss** consistently decrease with similar trends and no significant differences, while accuracy steadily increases to over 95%. This indicates that the model generalizes well without signs of overfitting.
