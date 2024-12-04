@@ -71,6 +71,13 @@ Dataset ini dirancang secara sistematis dan komprehensif untuk mendukung pengemb
 In this section, we present the results from the final project experiments, covering various aspects of the model's evaluation through metrics, ablation study, and training/validation curves. These results are summarized in the tables below and supported by visual illustrations to provide deeper insights.
 
 #### 1. Metrics
+We chose the DenseNet121 model with the following hyperparameter configuration for the project:
+- Epochs: 50
+- Learning Rate: 0.00001
+- Batch Size: 64
+- Optimizer: Adam
+  
+This configuration was selected because it achieved the lowest validation loss (0.0839) and provided balanced performance with validation precision (97%), validation recall (96%), and test accuracy (96.78%), compared to other models and configurations tested. 
 
 | model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | test_acc |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
