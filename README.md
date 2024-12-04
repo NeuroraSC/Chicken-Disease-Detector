@@ -167,4 +167,4 @@ If you find this project useful, we'd grateful if you cite this repository:
 For academic and non-commercial use only.
 
 ## Acknowledgement
-This project entitled <b>"HICKEN DISEASE DETECTION"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
+This project entitled <b>"CHICKEN DISEASE DETECTION"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
