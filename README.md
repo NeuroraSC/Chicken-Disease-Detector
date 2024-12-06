@@ -141,7 +141,7 @@ https://chicken-disease-detection.vercel.app/
 
 ## Supporting Documents
 ### Presentation Deck
-- Link: https://...
+- Link: [https://...](https://drive.google.com/file/d/1WlPSGJyHPZ3zrsAt_V4F-VYkLbinLpFI/view?usp=sharing)
 
 ### Business Model Canvas
 ![BMC Chicken Disease🐔](https://github.com/user-attachments/assets/4fffd21e-0c6c-44b2-938e-1cc0ac2251c0)
@@ -149,7 +149,7 @@ https://chicken-disease-detection.vercel.app/
 
 ### Short Video
 Provide a link to your short video, that should includes the project background and how it works.
-- Link: https://...
+- Link: https://youtu.be/SoLLlzMYBnU
 
 ## References
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
