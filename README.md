@@ -141,7 +141,7 @@ https://chicken-disease-detection.vercel.app/
 
 ## Supporting Documents
 ### Presentation Deck
-- Link: [https://...](https://drive.google.com/file/d/1WlPSGJyHPZ3zrsAt_V4F-VYkLbinLpFI/view?usp=sharing)
+- Link: [Chicken Disease Detector](https://drive.google.com/file/d/1yZEcFpZJCbYOwqQZ5subHIwzRLq7vTdY/view?usp=sharing)
 
 ### Business Model Canvas
 ![BMC Chicken Disease🐔](https://github.com/user-attachments/assets/4fffd21e-0c6c-44b2-938e-1cc0ac2251c0)
