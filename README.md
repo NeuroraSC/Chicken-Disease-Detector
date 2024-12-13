@@ -78,10 +78,16 @@ Here are some explorations we have conducted to evaluate and compare the perform
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | DenseNet121 | 50 |  0.00001 | 32 | Adam | 0.0854 | 98% | 97% | 95.92% |
 | DenseNet121 | 50 |  0.00001 | 64 | Adam | 0.0839 | 97% | 96% | 96.78% |
+| DenseNet121 | 80 |  0.00001 | 16 | Adam | 0.1039 | 97% | 96% | 96.41% |
+| DenseNet121 | 80 |  0.00001 | 32 | Adam | 0.0905 | 97% | 96% | 96.16% |
+| DenseNet121 | 80 |  0.00001 | 64 | Adam | 0.0839 | 97% | 96% | 96.21% |
 | Resnet50 | 50 |  0.00001 | 32 | Adam | 0.1334 | 96% | 97% | 97.03% |
 | Resnet50 | 50 |  0.00001 | 64 | Adam | 0.1297 | 97% | 96% | 96.41% | 
+| VGG16 | 50 |  0.00001 | 32 | Adam | 0.1362 | 96% | 95% | 95.79% |
+| VGG16 | 50 |  0.00001 | 64 | Adam | 0.1539 | 97% | 97% | 96.29% |
 | VGG16 | 50 |  0.00001 | 32 | Adamax | 0.0857 | 95% | 95% | 95.92% |
 | VGG16 | 50 |  0.00001 | 64 | Adamax | 0.1444 | 96% | 96% | 96.53% |
+
 
 From the explorations conducted, we selected the best model based on optimal performance, which is:
 | model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | test_acc |
